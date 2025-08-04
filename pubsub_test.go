@@ -10,12 +10,12 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	pubsub "github.com/libp2p/go-libp2p-pubsub"
-	record "github.com/libp2p/go-libp2p-record"
-	"github.com/libp2p/go-libp2p/core/host"
-	"github.com/libp2p/go-libp2p/core/routing"
-	bhost "github.com/libp2p/go-libp2p/p2p/host/blank"
-	swarmt "github.com/libp2p/go-libp2p/p2p/net/swarm/testing"
+	pubsub "github.com/MultiverseChronicles/go-libp2p-pubsub"
+	record "github.com/MultiverseChronicles/go-libp2p-record"
+	"github.com/MultiverseChronicles/go-libp2p/core/host"
+	"github.com/MultiverseChronicles/go-libp2p/core/routing"
+	bhost "github.com/MultiverseChronicles/go-libp2p/p2p/host/blank"
+	swarmt "github.com/MultiverseChronicles/go-libp2p/p2p/net/swarm/testing"
 )
 
 func newNetHost(ctx context.Context, t *testing.T) host.Host {
