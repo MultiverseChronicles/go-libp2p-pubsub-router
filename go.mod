@@ -1,4 +1,4 @@
-module github.com/libp2p/go-libp2p-pubsub-router
+module github.com/MultiverseChronicles/go-libp2p-pubsub-router
 
 go 1.18
 
