@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/host"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/routing"
+	"github.com/MultiverseChronicles/go-libp2p/core/host"
+	"github.com/MultiverseChronicles/go-libp2p/core/peer"
+	"github.com/MultiverseChronicles/go-libp2p/core/routing"
 
-	pubsub "github.com/libp2p/go-libp2p-pubsub"
-	record "github.com/libp2p/go-libp2p-record"
+	pubsub "github.com/MultiverseChronicles/go-libp2p-pubsub"
+	record "github.com/MultiverseChronicles/go-libp2p-record"
 
 	ds "github.com/ipfs/go-datastore"
 	dssync "github.com/ipfs/go-datastore/sync"
